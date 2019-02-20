@@ -1,0 +1,57 @@
+Final Year Project
+
+Project Leader: Jennifer Carer
+		j.carter@hud.ac.uk
+
+Must:
+	. Utilise existing and acquire additional skills 
+
+Aim:
+	Your project must provide an answer to the following questions:
+
+		Solve to problem of some specific description or address a need/desire or produce a creative design or solve a well-identified research problem.
+
+		Have a useful and identifiable outcome (a piece of software, a design, a research paper) BCS accreditec courses must produce a software artefact
+
+		Identify potential users of the product or people who will benefit from it, where appropriate have a real (or imaginary) client
+
+project management
+use your imagination, be innovative
+work "on your own"
+write a substantial project report
+Also seek and follow advice.
+
+Must write about the PLESI of the project
+
+Must meet all milestones
+
+
+
+Milestones:
+
+	29/10/2018 Submit Ethical Review Form - also Has to go into final report as appendix
+	3/12/2018  Submit Literature Review
+	7/1/2019   Present a poster
+	5/02/2019  Product specification, design and development plan
+	1/5/2019   Project Report
+	1-11/5/2019 Project demo/presentation of work 
+
+STAFF:
+	SJ2/17
+
+write concicsely (to the point)
+
+
+Projects should be academic in nature involving novel ideas, current research issues, technically demanding software or designs, or addressing challenging problems.
+
+Record keeping:
+
+	provide evidence in your report you have planned well and adapted well when problems occurred, conducted tests at each stage.
+
+You must aim to be an expert in your subject by the end of the first term
+
+Be sure to cite the work of others!
+
+
+
+Literature review: tehcniques, tools, area around your project, and similar work 

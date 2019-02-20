@@ -1,0 +1,54 @@
+Be aware of the type of problem
+
+once you understand the types of problems, nature of them, the input and output, 
+you can then focus on learning a technique to solve them.
+
+
+
+What is a comibatorial optimisation problem?
+
+What makes combinatorial problems different from other optimisation problems is the type of inputs and the way
+we handle them.
+
+A problem can be said to be combinatorial if;
+
+. the inputs are chosen from a finite set of objects
+
+A problem is NOT combinatorial if
+
+. there are no discreet values
+. there is no finite set
+
+the search space is the entire set of combinations of which you must search to find a global optimal
+
+
+Combinatorial problems are the most challenging problems we deal with
+
+
+n1 allows the calculation of the search space for any combinatorial problem
+
+combinatorial explosion: we can calculate the search space of combinatorial problems using n!
+
+
+Modelling:
+
+state space tree
+
+Generally speaking a state space is the set of all possible configurations of a system:
+in other words a state space shows all possible combinations for that problem
+
+this includes the steps of making a solution for the combinatorial problem
+
+state space tree - thre tree representation of the search space (state space)
+
+
+Exact algorithms - guarantee to produce an optimal solution for a given problem if we do not limit time
+or memory
+
+Heuristic Algorithms - such algorithms do not guarantee a best solution. They produce acceptable answers quickly
+
+Heuristic algorithms makre educated decisions - a suboptimal solution is found in a reaosnable time
+with reasonable resources
+
+
+

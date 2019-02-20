@@ -1,0 +1,43 @@
+Ant Colony Optimization PsuedoCode
+
+Marco Dorigo: ACO the new meta-heuristic
+
+procedure ACO_meta-heuristic()
+    whilte(termination.criterion.not_satisfied())
+        schedule_activities
+            ants_generation_and_activity();
+            pheromone.evaporation();
+            daemon_actions(); {optional}
+        end schedule.activities 
+    end while 
+end procedure
+
+procedure ants_generation_and_activity()
+    while(available_resources)
+        schedule_new_ant_creation();
+        new_active_ant();
+    end while 
+end procedure 
+
+procedure new_active_ant() {ant lifecycle}
+    initialize_ant();
+    M = update_ant_memory();
+    while(current.state != target_state)
+        A = rend_local_ant-routing.table();
+        P = comput_transition_probabilities(A, M, omega)
+        next_state = apply_ant_decision_policy(P, omega)
+        move_to_next_state(next_state)
+        if(online_step-by-step_pheromone_update)
+            deposit_pheromone_on_visited_arc();
+            update_ant-routing_table();
+        end if 
+        M = update_internal_state();
+    end while 
+    if(online_delayed_pheromone_update)
+        foreach visited_arc insetof nu do 
+            deposit_pheromone_on_visited_arc();
+            update_ant-routing_table();
+        end foreach
+    end if 
+    die();
+end procedure
