@@ -1,0 +1,7 @@
+ACO vs Genetic Algorithm
+
+While ACO can be considered a kind of genetic algorithm (we evolve a solution over generational iterations)
+it differs in one main aspect. In genetic algorithms we explicitly create a cross-over between the most
+successful chromosomes to create the next generation. In ACO we are utilising the concept of Stigmergy 
+which means each colony we generate in our main loop is different, however they communicate over space 
+as well as time using the pheromone matrices.
